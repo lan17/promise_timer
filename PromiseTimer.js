@@ -22,9 +22,10 @@ const PromiseTimer = function(options) {
       level: 'debug'
     });
   }
-  this.percentProgressNotificationDelta = Maybe.fromNullable(
-    options.percentProgressNotificationDelta)
-    .getOrElse(1);
+  this.percentProgressNotificationDelta = options.percentProgressNotificationDelta;
+  if (!this.percentProgressNotificationDelta) {
+    this.percentProgressNotificationDelta = 1;
+  }
 
   this.startTime = Date.now();
   this.lastTime = this.startTime;
