@@ -1,0 +1,29 @@
+{
+  "name": "promise_timer",
+  "version": "1.0.0",
+  "description": "Utility to time and report progress with promise chains",
+  "main": "PromiseTimer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lan17/promise_timer.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "promise",
+    "timer",
+    "utility"
+  ],
+  "author": "Lev Alexandrovich Neiman <lev.neiman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lan17/promise_timer/issues"
+  },
+  "homepage": "https://github.com/lan17/promise_timer#readme",
+  "dependencies": {
+    "bunyan": "^1.8.0"
+  }
+}
